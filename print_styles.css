@@ -1,0 +1,60 @@
+@charset "UTF-8";
+nav {
+    display: none;
+}
+.contact {
+    margin-bottom: 5pt;
+}
+.logo {
+    margin-bottom: 5pt;
+}
+main {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+main img {
+    margin: 0 auto;
+    margin-bottom: 3pt;
+	margin-top: 3pt;
+    max-height: 300px;
+}
+.content, aside {
+    float: none;
+    width: auto;
+}
+footer {
+    width: auto;
+    margin-top: 5pt;
+}
+html, body, footer {
+    background: #FFFFFF;
+    color: #000000 !important;
+}
+.content h1 {
+    font-size: 18pt !important;
+    color: #000 !important;
+}
+aside h3 {
+    font-size: 14pt !important;
+    margin-bottom: 2pt !important;
+    color: #000 !important;
+}
+p {
+    font-size: 12pt !important;
+}
+aside p {
+    font-size: 10pt !important;
+}
+footer {
+    font-size: 9pt !important;
+	margin-top: 8pt;
+}
+.contact a {
+    font-size: 10pt !important;
+    color: #000000 !important
+}
+a:after {
+    content: " ("attr(href) ") ";
+}
